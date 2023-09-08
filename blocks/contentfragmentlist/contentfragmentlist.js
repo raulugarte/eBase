@@ -70,10 +70,10 @@ async function getCategories(persistedQuery, isUE) {
             },
             image: {
                 url: imageUrl,
-                /*deliveryUrl: getImageUrl(item.image, false),
-                width: item.image["width"],
-                height: item.image["height"],
-                mimeType: item.image["mimeType"],*/
+                /*deliveryUrl: getImageUrl(item.image, false),*/
+                /*width: item.image["width"],*/
+                /*height: item.image["height"],*/
+                /*mimeType: item.image["mimeType"],*/
                 deliveryUrl: getImageUrl(item.primaryImage, false),
                 width: item.primaryImage["width"],
                 height: item.primaryImage["height"],
