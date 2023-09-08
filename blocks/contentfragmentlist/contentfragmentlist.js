@@ -53,7 +53,8 @@ async function getCategories(persistedQuery, isUE) {
     const json = await fetch(url, {
         credentials: "include"
     }).then((response) => response.json());
-    const items = json?.data?.categoryList?.items || []
+    /*const items = json?.data?.categoryList?.items || [] */
+    const items = json?.data?.adventureList?.items || []
 
     return items.map((item) => {
         const imageUrl = getImageUrl(item.image, isUE);
