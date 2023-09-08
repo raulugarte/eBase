@@ -62,7 +62,8 @@ async function getCategories(persistedQuery, isUE) {
         return {
             _path: item._path,
             title: item.title,
-            description: item.description["plaintext"],
+            /*description: item.description["plaintext"],*/
+            description: item.slug["plaintext"],
             cta: { 
                 text: item.ctaText,
                 link: item.ctaLink,
