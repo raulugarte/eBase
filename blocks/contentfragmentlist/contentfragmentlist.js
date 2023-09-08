@@ -57,7 +57,8 @@ async function getCategories(persistedQuery, isUE) {
     const items = json?.data?.adventureList?.items || []
 
     return items.map((item) => {
-        const imageUrl = getImageUrl(item.image, isUE);
+        /*const imageUrl = getImageUrl(item.image, isUE);*/
+        const imageUrl = getImageUrl(item.primaryImage, isUE);
         return {
             _path: item._path,
             title: item.title,
