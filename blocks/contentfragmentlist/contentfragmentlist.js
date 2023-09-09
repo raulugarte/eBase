@@ -118,5 +118,5 @@ function getImageUrl(image, isUE) {
     }
     const url = new URL(image["_publishUrl"])
     /*return `https://${url.hostname}${image["_dynamicUrl"]}`*/
-    return `{image["_publishUrl"]}`
+    return `${image["_publishUrl"]}`
 }
