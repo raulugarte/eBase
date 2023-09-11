@@ -73,8 +73,10 @@ main .form .form-checkbox-wrapper label {
 
 main .form .button {
   cursor: pointer;
-  background: var(--button-background-color);
-  color: var(--button-text-color);
+  /* background: var(--button-background-color);
+  color: var(--button-text-color); */
+  background: #05164d;
+  color: #ffffff;
   border-radius: var(--button-border-radius);;
   padding: var(--button-padding);
 }
