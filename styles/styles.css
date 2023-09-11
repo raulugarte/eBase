@@ -158,7 +158,8 @@ pre {
 /* buttons */
 
 a.button:any-link, button {
-  color: var(--button-text-color);
+  /* color: var(--button-text-color); */
+ color: #ffffff;
   /* background-color: var(--button-background-color); */
  background-color: #05164d;
   text-transform: uppercase;
