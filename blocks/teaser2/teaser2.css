@@ -46,7 +46,7 @@
     margin: .5em 0;
 }
 
-.teaser2 > a {
+.teaser2 a.button {
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 8px;
